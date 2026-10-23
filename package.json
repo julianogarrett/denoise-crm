@@ -1,0 +1,14 @@
+{
+  "name": "denoise-crm",
+  "version": "1.0.0",
+  "description": "CRM interno da deNoise: funil de vendas, ficha do lead, tarefas e automações internas.",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "start": "node server.js",
+    "rede": "node server.js --rede"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
