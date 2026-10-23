@@ -20,7 +20,7 @@ Não precisa rodar `npm install`: o CRM não usa nenhuma biblioteca externa.
 
 | Tela | O que faz |
 |---|---|
-| **Painel** | Leads no funil, pipeline em aberto, receita ganha no mês, taxa de conversão, funil por etapa, ranking da equipe, leads por origem e tarefas do dia. |
+| **Painel** | Leads no funil, pipeline em aberto, receita ganha no mês, taxa de conversão, funil por etapa, leads parados que precisam de atenção, leads por origem e tarefas do dia. |
 | **Funil de vendas** | Colunas por etapa com soma em R$. Arraste os cards entre as etapas. Busca por nome, empresa, telefone ou tag, e filtro por responsável. |
 | **Ficha do lead** | Abre ao clicar num card. Responsável, contato, negócio, temperatura e score, tags, observações. Abas: Interações (ligações, reuniões, mensagens, anotações), Histórico, Tarefas e Arquivos. |
 | **Tarefas** | Todas as tarefas da equipe: abertas, atrasadas, de hoje, da semana e concluídas. Também dá para criar tarefas sem lead. |

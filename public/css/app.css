@@ -164,6 +164,11 @@ textarea.input { height: auto; min-height: 84px; padding: 10px 12px; resize: ver
 .rank-row { display: grid; grid-template-columns: 22px auto 1fr auto auto; gap: 12px; align-items: center; padding: 10px 0; border-bottom: 1px solid var(--border); }
 .rank-row:last-child { border-bottom: 0; }
 .rank-row .pos { color: var(--fg-muted); }
+.att-row { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 6px 12px; align-items: center; width: 100%; padding: 10px 0; border: 0; border-bottom: 1px solid var(--border); background: none; text-align: left; cursor: pointer; color: inherit; font: inherit; }
+.att-row:last-child { border-bottom: 0; }
+.att-row:hover .att-name b { text-decoration: underline; }
+.att-name { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.att-meta { grid-column: 1 / -1; display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
 .avatar { --c: #64748b; display: inline-grid; place-items: center; border-radius: 50%; background: var(--c); color: #fff; font-weight: 600; flex: none; }
 .avatar.sm { width: 26px; height: 26px; font-size: 10.5px; }
 .avatar.md { width: 34px; height: 34px; font-size: 12px; }
@@ -396,6 +401,7 @@ textarea.input { height: auto; min-height: 84px; padding: 10px 12px; resize: ver
   .editor { grid-template-columns: 1fr; height: auto; }
   .ed-side { border-left: 0; border-top: 1px solid var(--border); }
 }
+@media (max-width: 1000px) { .grid-2 { grid-template-columns: 1fr; } }
 @media (max-width: 760px) {
   .grid-2, .form-grid { grid-template-columns: 1fr; }
   .content, .top { padding-left: 16px; padding-right: 16px; }
