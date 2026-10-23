@@ -10,7 +10,7 @@ Quando pedirem para "baixar", "instalar" ou "rodar" este repositório:
    - Se não tiver no **Windows**: `winget install OpenJS.NodeJS.LTS` (depois feche e abra o terminal de novo para o `node` aparecer). Sem winget, peça para a pessoa instalar o LTS de <https://nodejs.org>.
    - Se não tiver no **Mac**: `brew install node` se tiver Homebrew; senão, peça para instalar o LTS de <https://nodejs.org>.
 2. **Clone** num lugar fácil de achar, por exemplo a pasta Documentos: `git clone https://github.com/julianogarrett/denoise-crm.git`.
-   O repositório é **privado**. Se o clone der erro de permissão ou "not found": a pessoa precisa ter aceitado o convite do repositório no GitHub e estar logada (`gh auth login`, ou o login que o Git pedir na hora).
+   O repositório é público: não precisa de login no GitHub. Se não tiver `git`, baixe o ZIP em <https://github.com/julianogarrett/denoise-crm/archive/refs/heads/main.zip> e extraia.
 3. **Não precisa de `npm install`.** O projeto não tem dependências.
 4. **Abra o CRM:** `node server.js --abrir` dentro da pasta. Abre <http://localhost:4321> no navegador. Rode em segundo plano, porque o servidor fica rodando.
 5. **Confirme que abriu:** `curl -s http://localhost:4321/api/state` deve responder JSON com `"stages"`.
